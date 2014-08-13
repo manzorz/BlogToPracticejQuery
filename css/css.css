@@ -1,0 +1,136 @@
+html, body{
+	padding:0;
+	margin:0;
+	height:100%;
+}
+
+body{
+	background-color: #222;
+}
+
+.nav{
+	padding:0;
+	overflow:hidden;
+	width:620px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+.nav ul{
+	padding:0;
+}
+
+.nav ul li{
+	padding:0;
+	float: left;
+	display:inline;
+}
+
+.nav ul li a{
+	margin-bottom: 15px;
+	display: block;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 50px;
+	width: 120px;
+	height: 50px;
+	font-family:"helvetica", "sans-serif";
+	color:#fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+	.nav ul li:nth-child(1) a{
+		background-color: #f66;
+		margin: 0 20px 0 0;
+	}
+
+	.nav ul li:nth-child(1) a:hover{
+		background-color: #f11;
+		color:#faa;
+	}
+
+	.nav ul li:nth-child(2) a{
+		background-color:#fc6;
+		margin: 0 25px 0 25px;
+	}
+
+	.nav ul li:nth-child(2) a:hover{
+		background-color: #fa1;
+		color:#fda;
+	}
+
+	.nav ul li:nth-child(3) a{
+		background-color:#6f6;
+		margin: 0 25px 0 25px;
+	}
+
+	.nav ul li:nth-child(3) a:hover{
+		background-color: #1f1;
+		color:#bfb;
+	}
+
+	.nav ul li:nth-child(4) a{
+		background-color:#66f;
+		margin: 0 0 0 20px;
+	}
+
+	.nav ul li:nth-child(4) a:hover{
+		background-color: #33f;
+		color:#aaf;
+	}
+
+.contents{
+	font-family: "helvetica", "sans-serif";
+	background-color: #444;
+	color:#fff;
+	padding:10px;
+	width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.contents h1{
+	font-family: "Arvo", "slab-serif";
+}
+
+.arrowImage{
+	height:50px;
+	width:50px;
+}
+
+#rightArrow{
+	/* Rotation code from http://css-tricks.com/snippets/css/flip-an-image/ */
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position: absolute;
+    right:280px;
+	top:150px;
+}
+
+#leftArrow{
+	position:absolute;
+	left:280px;
+	top:150px;
+}
+
+.ads{
+	margin-top: 20px;
+	color:#fff;
+	border-color: #fff;
+	border-style:dotted;
+	border-width: 1px;
+	font-family: "helvetica", "sans-serif";
+	font-size: 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
